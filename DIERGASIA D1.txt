@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int buf[4];
+    srand(time(NULL));
+    buf[0] = rand() % 11;
+    
+    
+    return 0;
+}
